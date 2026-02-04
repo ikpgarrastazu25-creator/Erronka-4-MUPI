@@ -5,76 +5,89 @@
     <title>INDIUSURBIL</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="PIK taldea">
-    <meta name="description" content="Hau INDIUSURBIL orrialde nagusia da">
+    <meta name="author" content="MUPI taldea">
+    <meta name="description" content="Hau INDIUSURBIL produktuen orrialdea da">
 
-    <link rel="stylesheet" href="headerFooter.css">
-    <link rel="stylesheet" href="css/produktuak.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/produktuak.css">
 
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu,close">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu,close">
 </head>
+
 <body>
-     <header>
-    <a href="index.html" class="logoa">INDUSURBIL</a>
-    <span class="material-symbols-outlined menu-ikonoa">menu</span>
+    <header>
+        <nav class="nabigazioa">
 
-    <div class="nabigazioa" id="nabigazioMenua">
-        <a href="produktuak.html">UNISEX ARROPA</a>
-        <a href="umeak.html">UMEEN ARROPA</a>
-        <a href="ofertak.html">OFERTAK</a>
-        <a href="saskia.html">SASKIA</a>
-        <a href="balorazioak.html">BALORAZIOAK</a>
-    </div>
-    </header>  
+            <div class="logo">
+                <img src="img/logo.png" alt="IndiUsurbileko Logoa">
+            </div>
+            <ul>
+                <li><a href="index.html">Orrialde Nagusia</a></li>
+                <li><a href="produktuak.html">Produktuak</a></li>
+                <li><a href="saskia.html">Saskia</a></li>
+                <li><a href="estadistikak.html">Estadistikak</a></li>
+                <li><a href="login.html">Login</a></li>
 
-   <div class="eduki-nagusia">
-    
-    <aside class="alboko-barra">
-        <h2 class="alboko-titulua">Kategoriak</h2>
-        
-        <div class="iragazki-taldea">
-            <label class="iragazki-aukera" >
-                <input type="checkbox"id="denakBtn" checked> Denak
-            </label>
-            <label class="iragazki-aukera" >
-                <input type="checkbox"id="kamisetakBtn"> Kamisetak
-            </label>
-            <label class="iragazki-aukera" >
-                <input type="checkbox"id="galtzakBtn"> Galtzak
-            </label>
-            <label class="iragazki-aukera" >
-                <input type="checkbox"id="jertseakBtn"> Jertseak
-            </label>
-            <label class="iragazki-aukera" >
-                <input type="checkbox"id="txaketakBtn"> Txaketak
-            </label>
-            <label class="iragazki-aukera" >
-                <input type="checkbox"id="zapatakBtn"> Zapatak
-            </label>
-            <label class="iragazki-aukera">
+            </ul>
+
+            <div class="carritoLogo">
+
+                <a href="saskia.html"><img src="IMG/carro.png" alt="Saskia"><span id="zenbaketa">0</span></a>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <div class="eduki-nagusia">
+
+        <aside class="alboko-barra">
+            <h2 class="alboko-titulua">Kategoriak</h2>
+
+            <div class="iragazki-taldea">
+                <label class="iragazki-aukera">
+                    <input type="checkbox" id="denakBtn" checked> Denak
+                </label>
+                <label class="iragazki-aukera">
+                    <input type="checkbox" id="kamisetakBtn"> Kamisetak
+                </label>
+                <label class="iragazki-aukera">
+                    <input type="checkbox" id="galtzakBtn"> Galtzak
+                </label>
+                <label class="iragazki-aukera">
+                    <input type="checkbox" id="jertseakBtn"> Jertseak
+                </label>
+                <label class="iragazki-aukera">
+                    <input type="checkbox" id="txaketakBtn"> Txaketak
+                </label>
+                <label class="iragazki-aukera">
+                    <input type="checkbox" id="zapatakBtn"> Zapatak
+                </label>
+                <label class="iragazki-aukera">
                     <input type="checkbox" id="soinekoakBtn"> Soinekoak
                 </label>
                 <label class="iragazki-aukera">
                     <input type="checkbox" id="zapatilakBtn"> Zapatilak
                 </label>
-        </div>
+            </div>
 
-      
-    </aside>
 
-    <main class="produktu-eremua">
-        <h2 id="categoryTitle">Produktuak</h2>
-        <div id="shopContent" class="produktu-sarea"></div>
-    </main>
+        </aside>
 
-</div>
+        <main class="produktu-eremua">
+            <h2 id="categoryTitle">Produktuak</h2>
+            <div id="shopContent" class="produktu-sarea"></div>
+        </main>
+
+    </div>
 </body>
-      <footer>
-      
+<footer>
+
     <div class="footer-edukia">
-        
+
         <div class="footer-blokea footer-marka">
             <div class="footer-logo">Indiusurbil</div>
             <p class="footer-lema">Zure modako marka,</p>
@@ -121,7 +134,7 @@
                 <button type="submit" class="footer-bidali-botoia">Bidali</button>
             </form>
         </div>
-        
+
     </div>
 
     <div class="footer-azpikoa">
@@ -133,9 +146,10 @@
             <a href="#">Cookies</a>
         </div>
     </div>
-    </footer>
+</footer>
 
-    <script src="js/scrypt.js"></script>
+<script src="js/saskiaZerbitzua.js"></script>
+<script src="js/scrypt.js"></script>
 </body>
 
 </html>

@@ -1,17 +1,20 @@
 const karritoZenbaketa = document.getElementById('zenbaketa');
-const keyLocalStorage = "arropa"
+const keyLocalStorage = "arropa";
+
+document.addEventListener('DOMContentLoaded', () => {
+    eguneratuZenbakia();
+});
 
 function karritoraGehitu(produktu) {
     let memoria = JSON.parse(localStorage.getItem(keyLocalStorage));
     let azkenKantitatea;
 
-    if (!memoria || memoria.lenght === 0) {
-        const produktuBerria = getProduktuBerriaMemoria(produktu)
+    if (!memoria || memoria.length === 0) {
+        const produktuBerria = getProduktuBerriaMemoria(produktu);
         localStorage.setItem(keyLocalStorage, JSON.stringify([produktuBerria]));
-        eguneratuZenbakia();
         azkenKantitatea = 1;
     } else {
-        const produktuIndizea = memoria.findIndex(arropa => arropa.id === produktu.id)
+        const produktuIndizea = memoria.findIndex(arropa => arropa.id === produktu.id);
         const memoriaBerria = memoria;
 
         if (produktuIndizea === -1) {
@@ -23,29 +26,35 @@ function karritoraGehitu(produktu) {
             azkenKantitatea = memoriaBerria[produktuIndizea].kantitatea;
         }
         localStorage.setItem(keyLocalStorage, JSON.stringify(memoriaBerria));
-        eguneratuZenbakia();
-        return azkenKantitatea;
-    }
-}
 
-function karritoariKendu(produktu) {
-    let memoria = JSON.parse(localStorage.getItem(keyLocalStorage));
-    if (!memoria) return console.warn("ERROREA: Ez da karritoa aurkitu.")
-    let azkenKantitatea = 0;
-    const produktuIndizea = memoria.findIndex(arropa => arropa.id === produktu.id);
-    let memoriaBerria = memoria;
-    memoriaBerria[produktuIndizea].kantitatea--;
-    azkenKantitatea = memoriaBerria[produktuIndizea].kantitatea;
-    if(azkenKantitatea === 0) {
-        memoriaBerria.splice(produktuIndizea, 1);
-    };
-    localStorage.setItem(keyLocalStorage, JSON.stringify(memoriaBerria));
+    }
     eguneratuZenbakia();
     return azkenKantitatea;
 }
 
+function karritoariKendu(produktu) {
+    let memoria = JSON.parse(localStorage.getItem(keyLocalStorage));
+    if (!memoria) return console.warn("ERROREA: Ez da karritoa aurkitu.");
+
+    let azkenKantitatea = 0;
+    const produktuIndizea = memoria.findIndex(arropa => arropa.id === produktu.id);
+
+    if (produktuIndizea !== -1) {
+        let memoriaBerria = memoria;
+        memoriaBerria[produktuIndizea].kantitatea--;
+        azkenKantitatea = memoriaBerria[produktuIndizea].kantitatea;
+
+        if (azkenKantitatea === 0) {
+            memoriaBerria.splice(produktuIndizea, 1);
+        }
+        localStorage.setItem(keyLocalStorage, JSON.stringify(memoriaBerria));
+        eguneratuZenbakia();
+    }
+    return azkenKantitatea;
+}
+
 function getProduktuBerriaMemoria(produktu) {
-    const produktuBerria = produktu;
+    const produktuBerria = { ...produktu };
     produktuBerria.kantitatea = 1;
     return produktuBerria;
 }
@@ -54,15 +63,15 @@ function eguneratuZenbakia() {
     let zenbaketa = 0;
     const memoria = JSON.parse(localStorage.getItem(keyLocalStorage));
     if (memoria && memoria.length > 0) {
-        zenbaketa = memoria.reduce((acum, current) => acum+current.kantitatea,0)
-        return karritoZenbaketa.innserText = zenbaketa;
+        zenbaketa = memoria.reduce((acum, current) => acum + current.kantitatea, 0);
     }
-    karritoZenbaketa.innerText = 0;
+
+    if (karritoZenbaketa) {
+        karritoZenbaketa.innerText = zenbaketa;
+    }
 }
 
-function karritoaEguneratu() {
+function karritoaHustu() {
     localStorage.removeItem(keyLocalStorage);
-    karritoaEguneratu();
+    eguneratuZenbakia();
 }
-
-karritoaEguneratu();

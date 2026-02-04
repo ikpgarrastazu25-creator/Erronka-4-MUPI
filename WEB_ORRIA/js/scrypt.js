@@ -1,9 +1,9 @@
 /*prezio random funtzioa*/
-function getPrezioRandom(){
+function getPrezioRandom() {
   return (Math.random() * (100 - 20) + 20).toFixed(0);
 }
 /* BALORAZIO RANDOM FUNTZIOA */
-function getBalorazioRandom(){
+function getBalorazioRandom() {
   return (Math.random() * (5 - 1) + 1).toFixed(1);
 }
 const products = [
@@ -253,187 +253,187 @@ const products = [
     img: "img/txaketa8.png",
     category: 'txaketak'
   },
-   {
-  productName: "Kamiseta txuria",
-  price: getPrezioRandom(),
-  img: "img/kamiseta9.png",
-  category: 'kamisetak'
- },
- {
-  productName: "Kamiseta txuria",
-  price: getPrezioRandom(),
-  img: "img/kamiseta10.png",
-  category: 'kamisetak'
- },
- {
-  productName: "Kamiseta txuria",
-  price: getPrezioRandom(),
-  img: "img/kamiseta11.png",
-  category: 'kamisetak'
- },
- {
-  productName: "Kamiseta txuria",
-  price: getPrezioRandom(),
-  img: "img/kamiseta12.png",
-  category: 'kamisetak'
- },
- {
-  productName: "Kamiseta txuria",
-  price: getPrezioRandom(),
-  img: "img/kamiseta13.png",
-  category: 'kamisetak'
- },
- {
-  productName: "Kamiseta txuria",
-  price: getPrezioRandom(),
-  img: "img/kamiseta14.png",
-  category: 'kamisetak'
- },
- {
-  productName: "Kamiseta txuria",
-  price: getPrezioRandom(),
-  img: "img/kamiseta15.png",
-  category: 'kamisetak'
- },
- {
-  productName: "Kamiseta txuria",
-  price: getPrezioRandom(),
-  img: "img/kamiseta16.png",
-  category: 'kamisetak'
- },
- {
-  productName: "Jertsea",
-  price: getPrezioRandom(),
-  img: "img/jertsea9.png",
-  category: 'jertseak'
+  {
+    productName: "Kamiseta txuria",
+    price: getPrezioRandom(),
+    img: "img/kamiseta9.png",
+    category: 'kamisetak'
   },
   {
-  productName: "Jertsea",
-  price: getPrezioRandom(),
-  img: "img/jertsea10.png",
-  category: 'jertseak'
+    productName: "Kamiseta txuria",
+    price: getPrezioRandom(),
+    img: "img/kamiseta10.png",
+    category: 'kamisetak'
   },
   {
-  productName: "Jertsea",
-  price: getPrezioRandom(),
-  img: "img/jertsea11.png",
-  category: 'jertseak'
+    productName: "Kamiseta txuria",
+    price: getPrezioRandom(),
+    img: "img/kamiseta11.png",
+    category: 'kamisetak'
   },
   {
-  productName: "Jertsea",
-  price: getPrezioRandom(),
-  img: "img/jertsea12.png",
-  category: 'jertseak'
+    productName: "Kamiseta txuria",
+    price: getPrezioRandom(),
+    img: "img/kamiseta12.png",
+    category: 'kamisetak'
   },
   {
-  productName: "Jertsea",
-  price: getPrezioRandom(),
-  img: "img/jertsea13.png",
-  category: 'jertseak'
+    productName: "Kamiseta txuria",
+    price: getPrezioRandom(),
+    img: "img/kamiseta13.png",
+    category: 'kamisetak'
   },
   {
-  productName: "Jertsea",
-  price: getPrezioRandom(),
-  img: "img/jertsea14.png",
-  category: 'jertseak'
+    productName: "Kamiseta txuria",
+    price: getPrezioRandom(),
+    img: "img/kamiseta14.png",
+    category: 'kamisetak'
   },
   {
-  productName: "Jertsea",
-  price: getPrezioRandom(),
-  img: "img/jertsea15.png",
-  category: 'jertseak'
+    productName: "Kamiseta txuria",
+    price: getPrezioRandom(),
+    img: "img/kamiseta15.png",
+    category: 'kamisetak'
   },
   {
-  productName: "Jertsea",
-  price: getPrezioRandom(),
-  img: "img/jertsea16.png",
-  category: 'jertseak'
+    productName: "Kamiseta txuria",
+    price: getPrezioRandom(),
+    img: "img/kamiseta16.png",
+    category: 'kamisetak'
   },
   {
-  productName: "Soinekoa",
-  price: getPrezioRandom(),
-  img: "img/soineko1.png",
-  category: 'soinekoak'
-  },
-    {
-  productName: "Soinekoa",
-  price: getPrezioRandom(),
-  img: "img/soineko2.png",
-  category: 'soinekoak'
-  },
-    {
-  productName: "Soinekoa",
-  price: getPrezioRandom(),
-  img: "img/soineko3.png",
-  category: 'soinekoak'
-  },
-    {
-  productName: "Soinekoa",
-  price: getPrezioRandom(),
-  img: "img/soineko4.png",
-  category: 'soinekoak'
-  },
-    {
-  productName: "Soinekoa",
-  price: getPrezioRandom(),
-  img: "img/soineko5.png",
-  category: 'soinekoak'
-  },
-    {
-  productName: "Soinekoa",
-  price: getPrezioRandom(),
-  img: "img/soineko6.png",
-  category: 'soinekoak'
+    productName: "Jertsea",
+    price: getPrezioRandom(),
+    img: "img/jertsea9.png",
+    category: 'jertseak'
   },
   {
-  productName: "Txaketa",
-  price: getPrezioRandom(),
-  img: "img/txaketa9.png",
-  category: 'txaketak'
+    productName: "Jertsea",
+    price: getPrezioRandom(),
+    img: "img/jertsea10.png",
+    category: 'jertseak'
   },
-   {
-  productName: "Txaketa",
-  price: getPrezioRandom(),
-  img: "img/txaketa10.png",
-  category: 'txaketak'
+  {
+    productName: "Jertsea",
+    price: getPrezioRandom(),
+    img: "img/jertsea11.png",
+    category: 'jertseak'
   },
-   {
-  productName: "Txaketa",
-  price: getPrezioRandom(),
-  img: "img/txaketa11.png",
-  category: 'txaketak'
+  {
+    productName: "Jertsea",
+    price: getPrezioRandom(),
+    img: "img/jertsea12.png",
+    category: 'jertseak'
   },
-   {
-  productName: "Txaketa",
-  price: getPrezioRandom(),
-  img: "img/txaketa12.png",
-  category: 'txaketak'
+  {
+    productName: "Jertsea",
+    price: getPrezioRandom(),
+    img: "img/jertsea13.png",
+    category: 'jertseak'
   },
-   {
-  productName: "Txaketa",
-  price: getPrezioRandom(),
-  img: "img/txaketa13.png",
-  category: 'txaketak'
+  {
+    productName: "Jertsea",
+    price: getPrezioRandom(),
+    img: "img/jertsea14.png",
+    category: 'jertseak'
   },
-   {
-  productName: "Txaketa",
-  price: getPrezioRandom(),
-  img: "img/txaketa14.png",
-  category: 'txaketak'
+  {
+    productName: "Jertsea",
+    price: getPrezioRandom(),
+    img: "img/jertsea15.png",
+    category: 'jertseak'
   },
-   {
-  productName: "Txaketa",
-  price: getPrezioRandom(),
-  img: "img/txaketa15.png",
-  category: 'txaketak'
+  {
+    productName: "Jertsea",
+    price: getPrezioRandom(),
+    img: "img/jertsea16.png",
+    category: 'jertseak'
   },
-   {
-  productName: "Txaketa",
-  price: getPrezioRandom(),
-  img: "img/txaketa16.png",
-  category: 'txaketak'
+  {
+    productName: "Soinekoa",
+    price: getPrezioRandom(),
+    img: "img/soineko1.png",
+    category: 'soinekoak'
   },
- {
+  {
+    productName: "Soinekoa",
+    price: getPrezioRandom(),
+    img: "img/soineko2.png",
+    category: 'soinekoak'
+  },
+  {
+    productName: "Soinekoa",
+    price: getPrezioRandom(),
+    img: "img/soineko3.png",
+    category: 'soinekoak'
+  },
+  {
+    productName: "Soinekoa",
+    price: getPrezioRandom(),
+    img: "img/soineko4.png",
+    category: 'soinekoak'
+  },
+  {
+    productName: "Soinekoa",
+    price: getPrezioRandom(),
+    img: "img/soineko5.png",
+    category: 'soinekoak'
+  },
+  {
+    productName: "Soinekoa",
+    price: getPrezioRandom(),
+    img: "img/soineko6.png",
+    category: 'soinekoak'
+  },
+  {
+    productName: "Txaketa",
+    price: getPrezioRandom(),
+    img: "img/txaketa9.png",
+    category: 'txaketak'
+  },
+  {
+    productName: "Txaketa",
+    price: getPrezioRandom(),
+    img: "img/txaketa10.png",
+    category: 'txaketak'
+  },
+  {
+    productName: "Txaketa",
+    price: getPrezioRandom(),
+    img: "img/txaketa11.png",
+    category: 'txaketak'
+  },
+  {
+    productName: "Txaketa",
+    price: getPrezioRandom(),
+    img: "img/txaketa12.png",
+    category: 'txaketak'
+  },
+  {
+    productName: "Txaketa",
+    price: getPrezioRandom(),
+    img: "img/txaketa13.png",
+    category: 'txaketak'
+  },
+  {
+    productName: "Txaketa",
+    price: getPrezioRandom(),
+    img: "img/txaketa14.png",
+    category: 'txaketak'
+  },
+  {
+    productName: "Txaketa",
+    price: getPrezioRandom(),
+    img: "img/txaketa15.png",
+    category: 'txaketak'
+  },
+  {
+    productName: "Txaketa",
+    price: getPrezioRandom(),
+    img: "img/txaketa16.png",
+    category: 'txaketak'
+  },
+  {
     productName: "Zapatilak",
     price: getPrezioRandom(),
     img: "img/zapatilak9.png",
@@ -541,7 +541,7 @@ const products = [
     img: "img/umezapatila4.png",
     category: 'umezapatila'
   },
-{
+  {
     productName: "Ume galtza",
     price: getPrezioRandom(),
     img: "img/galtzak13.png",
@@ -566,9 +566,10 @@ const products = [
     category: 'umegaltza'
   },
 ];
-/* --- Balorazioa gehitu --- */
-products.forEach(product => {
-    product.rating = getBalorazioRandom();
+/* --- Balorazioa eta ID gehitu --- */
+products.forEach((product, index) => {
+  product.id = index + 1;
+  product.rating = getBalorazioRandom();
 });
 
 /* --- FUNTZIO NAGUSIA: Produktuak bistaratu --- */
@@ -577,8 +578,8 @@ const displayProducts = (productsToShow) => {
   shopContent.innerHTML = ""; // Garbitu aurreko edukia
 
   if (productsToShow.length === 0) {
-      shopContent.innerHTML = "<p>Ez dago produkturik aukera honekin.</p>";
-      return;
+    shopContent.innerHTML = "<p>Ez dago produkturik aukera honekin.</p>";
+    return;
   }
 
   productsToShow.forEach(product => {
@@ -607,7 +608,8 @@ const displayProducts = (productsToShow) => {
 
     const erosiBotoia = div.querySelector('.erosi-btn');
     erosiBotoia.addEventListener('click', () => {
-        window.location.href = 'saskia.html'; 
+      karritoraGehitu(product);
+      alert("Produktua saskira gehitu da!");
     });
     shopContent.append(div);
   });
@@ -618,12 +620,12 @@ const displayProducts = (productsToShow) => {
 const checkboxak = {
   kamisetak: document.getElementById('kamisetakBtn'),
   galtzak: document.getElementById('galtzakBtn'),
-  zapatak: document.getElementById('zapatakBtn'),   
+  zapatak: document.getElementById('zapatakBtn'),
   txaketak: document.getElementById('txaketakBtn'),
   jertseak: document.getElementById('jertseakBtn'),
   soinekoak: document.getElementById('soinekoakBtn'),
   zapatilak: document.getElementById('zapatilakBtn'),
-/* Umeen orrialdekoak (Izen desberdinak erabili ditugu gatazkarik ez egoteko) */
+  /* Umeen orrialdekoak (Izen desberdinak erabili ditugu gatazkarik ez egoteko) */
   umeKamisetak: document.getElementById('umekamisetakBtn'),
   umeGaltzak: document.getElementById('umegaltzakBtn'),
   umeZapatilak: document.getElementById('umezapatilakBtn'),
@@ -636,36 +638,36 @@ const updateProducts = () => {
   const kategoriaaktibatuak = [];
 
   /* Egiaztatu banan-banan (NULL diren begiratu gabe kraseatu ez dezan) */
-  if(checkboxak.kamisetak && checkboxak.kamisetak.checked) kategoriaaktibatuak.push('kamisetak');
-  if(checkboxak.galtzak && checkboxak.galtzak.checked)     kategoriaaktibatuak.push('galtzak');
-  if(checkboxak.jertseak && checkboxak.jertseak.checked)   kategoriaaktibatuak.push('jertseak');
-  if(checkboxak.txaketak && checkboxak.txaketak.checked)   kategoriaaktibatuak.push('txaketak');
-  if(checkboxak.zapatak && checkboxak.zapatak.checked)     kategoriaaktibatuak.push('zapatak');
-  if(checkboxak.zapatilak && checkboxak.zapatilak.checked) kategoriaaktibatuak.push('zapatilak');
-  if(checkboxak.soinekoak && checkboxak.soinekoak.checked) kategoriaaktibatuak.push('soinekoak');
-/* Umeen kategoriak*/
-  if(checkboxak.umeKamisetak && checkboxak.umeKamisetak.checked) kategoriaaktibatuak.push('umekamiseta');
-  if(checkboxak.umeGaltzak && checkboxak.umeGaltzak.checked)     kategoriaaktibatuak.push('umegaltza');
-  if(checkboxak.umeZapatilak && checkboxak.umeZapatilak.checked) kategoriaaktibatuak.push('umezapatila');
+  if (checkboxak.kamisetak && checkboxak.kamisetak.checked) kategoriaaktibatuak.push('kamisetak');
+  if (checkboxak.galtzak && checkboxak.galtzak.checked) kategoriaaktibatuak.push('galtzak');
+  if (checkboxak.jertseak && checkboxak.jertseak.checked) kategoriaaktibatuak.push('jertseak');
+  if (checkboxak.txaketak && checkboxak.txaketak.checked) kategoriaaktibatuak.push('txaketak');
+  if (checkboxak.zapatak && checkboxak.zapatak.checked) kategoriaaktibatuak.push('zapatak');
+  if (checkboxak.zapatilak && checkboxak.zapatilak.checked) kategoriaaktibatuak.push('zapatilak');
+  if (checkboxak.soinekoak && checkboxak.soinekoak.checked) kategoriaaktibatuak.push('soinekoak');
+  /* Umeen kategoriak*/
+  if (checkboxak.umeKamisetak && checkboxak.umeKamisetak.checked) kategoriaaktibatuak.push('umekamiseta');
+  if (checkboxak.umeGaltzak && checkboxak.umeGaltzak.checked) kategoriaaktibatuak.push('umegaltza');
+  if (checkboxak.umeZapatilak && checkboxak.umeZapatilak.checked) kategoriaaktibatuak.push('umezapatila');
   console.log("Aktibatutako kategoriak:", kategoriaaktibatuak); // Debug egiteko
 
   /* Iragazteko logika */
   if (kategoriaaktibatuak.length === 0) {
     // Ezer ez badago aukeratuta, denak erakutsi (edo orriaren arabera logika aldatu)
     displayProducts(products);
-    
+
     // Botoiak aktibatu bisualki
-    if(denakBtn) denakBtn.checked = true;
-    if(denakumeBtn) denakumeBtn.checked = true;
+    if (denakBtn) denakBtn.checked = true;
+    if (denakumeBtn) denakumeBtn.checked = true;
   } else {
-    const productsToShow = products.filter(product => 
+    const productsToShow = products.filter(product =>
       kategoriaaktibatuak.includes(product.category)
     );
     displayProducts(productsToShow);
-    
+
     // Botoiak desaktibatu
-    if(denakBtn) denakBtn.checked = false;
-    if(denakumeBtn) denakumeBtn.checked = false;
+    if (denakBtn) denakBtn.checked = false;
+    if (denakumeBtn) denakumeBtn.checked = false;
   }
 };
 
@@ -673,73 +675,73 @@ const updateProducts = () => {
 // Segurtasunarekin gehitu (elementua existitzen bada bakarrik)
 Object.values(checkboxak).forEach(checkbox => {
   if (checkbox) { // Garrantzitsua: null bada ez saiatu gehitzen
-      checkbox.addEventListener('change', updateProducts);
+    checkbox.addEventListener('change', updateProducts);
   }
 });
 
 /* --- "DENAK" BOTOIA (HELDUAK) --- */
 if (denakBtn) {
-    denakBtn.addEventListener('change', (e) => {
-      if (e.target.checked) {
-        // Desmarkatu helduen beste guztiak
-        if(checkboxak.kamisetak) checkboxak.kamisetak.checked = false;
-        if(checkboxak.galtzak) checkboxak.galtzak.checked = false;
-        if(checkboxak.jertseak) checkboxak.jertseak.checked = false;
-        if(checkboxak.txaketak) checkboxak.txaketak.checked = false;
-        if(checkboxak.zapatilak) checkboxak.zapatilak.checked = false;
-        if(checkboxak.soinekoak) checkboxak.soinekoak.checked = false;
-        
-        displayProducts(products);
-      } else {
-        updateProducts();
-      }
-    });
+  denakBtn.addEventListener('change', (e) => {
+    if (e.target.checked) {
+      // Desmarkatu helduen beste guztiak
+      if (checkboxak.kamisetak) checkboxak.kamisetak.checked = false;
+      if (checkboxak.galtzak) checkboxak.galtzak.checked = false;
+      if (checkboxak.jertseak) checkboxak.jertseak.checked = false;
+      if (checkboxak.txaketak) checkboxak.txaketak.checked = false;
+      if (checkboxak.zapatilak) checkboxak.zapatilak.checked = false;
+      if (checkboxak.soinekoak) checkboxak.soinekoak.checked = false;
+
+      displayProducts(products);
+    } else {
+      updateProducts();
+    }
+  });
 }
 
 /* --- "DENAK" BOTOIA (UMEAK) --- */
 if (denakumeBtn) {
-    denakumeBtn.addEventListener('change', (e) => {
-      if (e.target.checked) {
-        // Desmarkatu umeen beste guztiak
-        if(checkboxak.umeKamisetak) checkboxak.umeKamisetak.checked = false;
-        if(checkboxak.umeGaltzak) checkboxak.umeGaltzak.checked = false;
-        if(checkboxak.umeZapatilak) checkboxak.umeZapatilak.checked = false;
+  denakumeBtn.addEventListener('change', (e) => {
+    if (e.target.checked) {
+      // Desmarkatu umeen beste guztiak
+      if (checkboxak.umeKamisetak) checkboxak.umeKamisetak.checked = false;
+      if (checkboxak.umeGaltzak) checkboxak.umeGaltzak.checked = false;
+      if (checkboxak.umeZapatilak) checkboxak.umeZapatilak.checked = false;
 
-        // Hemen agian bakarrik umeenak erakutsi nahiko zenituzke, 
-        // baina oraingoz produktu guztiak erakusten ditu.
-        // Hobetzeko: products.filter(...) erabili hemen umeenak bakarrik ateratzeko.
-        displayProducts(products); 
-      } else {
-        updateProducts();
-      }
-    });
+      // Hemen agian bakarrik umeenak erakutsi nahiko zenituzke, 
+      // baina oraingoz produktu guztiak erakusten ditu.
+      // Hobetzeko: products.filter(...) erabili hemen umeenak bakarrik ateratzeko.
+      displayProducts(products);
+    } else {
+      updateProducts();
+    }
+  });
 }
 
 /* --- HASIERAKO KARGA: ORRIALDEAREN ARABERA --- */
 document.addEventListener('DOMContentLoaded', () => {
-    
-    // Begiratu ea zein orrialdetan gauden (URLan "umeak.html" jartzen duen)
-    if (window.location.pathname.includes("umeak.html")) {
-        
-        console.log("Umeen orrialdean gaude: Umeen produktuak bakarrik kargatzen...");
-        
-        // Iragazi bakarrik umeen kategoriak dituzten produktuak
-        const umeenKategoriak = ['umekamiseta', 'umegaltza', 'umezapatila'];
-        
-        const umeenProduktuak = products.filter(product => 
-            umeenKategoriak.includes(product.category)
-        );
-        
-        // Erakutsi iragazitakoak bakarrik
-        displayProducts(umeenProduktuak);
 
-        // Ziurtatu "Denak" botoia markatuta dagoela
-        if (denakumeBtn) denakumeBtn.checked = true;
+  // Begiratu ea zein orrialdetan gauden (URLan "umeak.html" jartzen duen)
+  if (window.location.pathname.includes("umeak.html")) {
 
-    } else {
-        // Beste edozein orrialdetan bagaude (adibidez index.html edo produktuak.html), 
-        // erakutsi produktu GUZTIAK (edo nahi duzun logika).
-        console.log("Orrialde orokorra: Produktu guztiak kargatzen...");
-        displayProducts(products);
-    }
+    console.log("Umeen orrialdean gaude: Umeen produktuak bakarrik kargatzen...");
+
+    // Iragazi bakarrik umeen kategoriak dituzten produktuak
+    const umeenKategoriak = ['umekamiseta', 'umegaltza', 'umezapatila'];
+
+    const umeenProduktuak = products.filter(product =>
+      umeenKategoriak.includes(product.category)
+    );
+
+    // Erakutsi iragazitakoak bakarrik
+    displayProducts(umeenProduktuak);
+
+    // Ziurtatu "Denak" botoia markatuta dagoela
+    if (denakumeBtn) denakumeBtn.checked = true;
+
+  } else {
+    // Beste edozein orrialdetan bagaude (adibidez index.html edo produktuak.html), 
+    // erakutsi produktu GUZTIAK (edo nahi duzun logika).
+    console.log("Orrialde orokorra: Produktu guztiak kargatzen...");
+    displayProducts(products);
+  }
 });
