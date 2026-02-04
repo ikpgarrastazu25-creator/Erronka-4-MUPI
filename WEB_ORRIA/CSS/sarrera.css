@@ -1,4 +1,8 @@
 
-.nabarmenduak h1{
+main h1{
     text-align: center;
+}
+.nabarmenduak{
+    display: flex;
+    justify-content: space-around;
 }
